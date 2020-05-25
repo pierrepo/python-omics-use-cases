@@ -17,26 +17,37 @@ Vous trouverez dans le répertoire `notebooks` 3 notebooks Jupyter :
 1. Installez miniconda dans un environnement de type Unix (WSL pour Windows, Mac OSX ou Linux)
 
 2. Clonez le dépôt :
-```
-git clone https://github.com/pierrepo/python-omics-use-cases.git
-```
+    ```
+    git clone https://github.com/pierrepo/python-omics-use-cases.git
+    ```
 
-3. Créez l'environnement conda :
-```
-cd python-omics-use-cases
-conda env create -f binder/environment.yml
-bash binder/postBuild
-```
+3. Déplacez-vous dans le répertoire du dépôt :
+    ```
+    cd python-omics-use-cases
+    ```
 
-4. Activez l'environnement conda :
-```
-conda activate python-omics-use-cases
-```
+4. Créez l'environnement conda :
+    ```
+    conda env create -f binder/environment.yml
+    ```
 
-5. Lancez Jupyter Lab :
-```
-jupyter lab
-```
+5. Activez l'environnement conda :
+    ```
+    conda activate python-omics-use-cases
+    ```
+
+6. Chargez les extensions Jupyter Lab :
+    ```
+    bash binder/postBuild
+    ```
+
+7. Lancez Jupyter Lab :
+    ```
+    jupyter lab
+    ```
+
+
+Pour des utilisations ultérieures, seules les étapes 3, 5 et 7 seront nécessaires.
 
 
 ## Licence
