@@ -50,6 +50,29 @@ Vous trouverez dans le répertoire `notebooks` 3 notebooks Jupyter :
 Pour des utilisations ultérieures, seules les étapes 3, 5 et 7 seront nécessaires.
 
 
+## Remarque pour les utilisateurs de Windows (sans WSL)
+
+Si vous avez installé miniconda sur Windows (mais sans WSL), vous pouvez également installer cet environnement sur votre machine. 
+
+Dans un premier temps, installez `git` si ce n'est pas déjà fait en exécutant cette commande dans un terminal :
+```
+conda install -c conda-forge git
+```
+
+Réalisez ensuite les étapes 2, 3, 4 et 5. 
+
+Pour l'étape 6, exécutez, manuellement et l'une après l'autre, les commandes contenues dans `binder/postBuild` :
+```
+jupyter labextension install @jupyter-widgets/jupyterlab-manager
+jupyter labextension install @bokeh/jupyter_bokeh
+jupyter labextension install @jupyterlab/toc
+```
+
+Cette étape peut prendre du temps.
+
+Terminez enfin par l'étape 7.
+
+
 ## Licence
 
 Le contenu de ce dépôt est sous licence libre BSD 3-clause. Pour plus d'informations, consultez le fichier [LICENSE](LICENSE.txt).
