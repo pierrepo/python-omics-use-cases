@@ -7,7 +7,7 @@ Vous pouvez manipuler en ligne avec Binder les notebooks proposés :
 
 Vous trouverez dans le répertoire `notebooks` 3 notebooks Jupyter :
 
-- `volcano_plot.ipynb` : construction d'un *volcano plot*, représentation graphique couramment utilisée lors de l'analyse de données omiques. Utilisation des bibliothèques *Matplotlib* et *Bokeh*.
+- `volcano_plot.ipynb` : construction d'un *volcano plot*, représentation graphique couramment utilisée lors de l'analyse de données omiques. Utilisation des bibliothèques graphiques *Matplotlib* et *Bokeh*.
 - `fusion_donnees.ipynb` : fusion de deux jeux de données avec *Pandas*.
 - `acp_recettes.ipynb` : analyse en composantes principales avec la bibliothèque *Scikit-learn*. Et cette fois, pas de données omiques ;-)
 
