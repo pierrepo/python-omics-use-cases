@@ -1,6 +1,6 @@
 # Exemples d'utilisation de Python pour l'analyse de données omiques
 
-Vous pouvez manipuler en ligne avec Binder les notebooks proposés :
+Vous pouvez manipuler les notebooks proposés en ligne avec Binder :
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/pierrepo/python-omics-use-cases/master?urlpath=lab)
 
