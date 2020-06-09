@@ -50,7 +50,7 @@ Vous trouverez dans le répertoire `notebooks` 3 notebooks Jupyter :
 Pour des utilisations ultérieures, seules les étapes 3, 5 et 7 seront nécessaires.
 
 
-## Remarque pour les utilisateurs de Windows (sans WSL)
+## Remarques pour les utilisateurs de Windows (sans WSL)
 
 Si vous avez installé miniconda sur Windows (mais sans WSL), vous pouvez également installer cet environnement sur votre machine. 
 
