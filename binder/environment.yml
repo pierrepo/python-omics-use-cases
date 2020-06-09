@@ -18,3 +18,6 @@ dependencies:
     - ipywidgets
     - scikit-learn
     - nodejs
+    - pip
+    - pip:
+        - watermark
