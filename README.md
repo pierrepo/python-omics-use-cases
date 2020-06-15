@@ -73,6 +73,13 @@ Cette étape peut prendre du temps.
 Terminez enfin par l'étape 7.
 
 
+## Affichage de l'aide contextuel dans Jupyter Lab
+
+Dans le *Launcher*, cliquez sur *Show Contextual Help*
+
+![](notebooks/jupyter_lab_contextual_help.gif)
+
+
 ## Licence
 
 Le contenu de ce dépôt est sous licence libre BSD 3-clause. Pour plus d'informations, consultez le fichier [LICENSE](LICENSE.txt).
