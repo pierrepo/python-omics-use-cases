@@ -11,10 +11,11 @@ dependencies:
     - numpy
     - scipy
     - pandas
-    - xlrd # to read .xlsx files from Pandas
+    - xlrd # to read .xls files from Pandas
+    - openpyxl # to read .xlsx files from Pandas
     - matplotlib
     - bokeh
-    - jupyterlab
+    - jupyterlab=2
     - ipywidgets
     - scikit-learn
     - nodejs
